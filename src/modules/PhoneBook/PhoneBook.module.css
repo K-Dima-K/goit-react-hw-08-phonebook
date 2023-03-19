@@ -1,0 +1,10 @@
+.wrapper {
+  width: 400px;
+  margin: 25px auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #094d18;
+}

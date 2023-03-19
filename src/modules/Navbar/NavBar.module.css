@@ -1,0 +1,19 @@
+.navbar_wrapper {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #094d18;
+}
+
+.link {
+  margin: 0;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #094d18;
+}
+
+.link:global(.active) {
+  color: #e6f5f4;
+}

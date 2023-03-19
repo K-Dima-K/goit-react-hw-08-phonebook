@@ -1,0 +1,23 @@
+.auth_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.split {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #094d18;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #094d18;
+}
+
+.link:global(.active) {
+  color: #e6f5f4;
+}

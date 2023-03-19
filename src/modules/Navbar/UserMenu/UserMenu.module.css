@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #094d18;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 80px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(77, 5, 5);
+}
